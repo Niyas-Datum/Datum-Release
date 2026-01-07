@@ -1,0 +1,581 @@
+{
+  "version": "6.0",
+  "nxVersion": "22.3.3",
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {
+      "feature-product-detail": [
+        {
+          "file": "datum-fin-workspace/libs/shop/feature-product-detail/project.json",
+          "hash": "1661826460712965824"
+        },
+        {
+          "file": "datum-fin-workspace/libs/shop/feature-product-detail/src/index.ts",
+          "hash": "7840085224994398558"
+        },
+        {
+          "file": "datum-fin-workspace/libs/shop/feature-product-detail/src/lib/feature-product-detail.routes.ts",
+          "hash": "2700561870875978645"
+        },
+        {
+          "file": "datum-fin-workspace/libs/shop/feature-product-detail/src/lib/product-detail/product-detail.component.spec.ts",
+          "hash": "2995327600150625706"
+        },
+        {
+          "file": "datum-fin-workspace/libs/shop/feature-product-detail/src/lib/product-detail/product-detail.component.ts",
+          "hash": "16779289275321651851"
+        },
+        {
+          "file": "datum-fin-workspace/libs/shop/feature-product-detail/src/test-setup.ts",
+          "hash": "13958101226034237113"
+        },
+        {
+          "file": "datum-fin-workspace/libs/shop/feature-product-detail/tsconfig.json",
+          "hash": "5610721802488359353"
+        },
+        {
+          "file": "datum-fin-workspace/libs/shop/feature-product-detail/tsconfig.lib.json",
+          "hash": "4852183382855693775"
+        },
+        {
+          "file": "datum-fin-workspace/libs/shop/feature-product-detail/tsconfig.spec.json",
+          "hash": "10021305143622083869"
+        },
+        {
+          "file": "datum-fin-workspace/libs/shop/feature-product-detail/vite.config.mts",
+          "hash": "18471630341219202"
+        }
+      ],
+      "data": [
+        {
+          "file": "datum-fin-workspace/libs/shop/data/README.md",
+          "hash": "7534402369858811532"
+        },
+        {
+          "file": "datum-fin-workspace/libs/shop/data/eslint.config.mjs",
+          "hash": "2398396891847188576"
+        },
+        {
+          "file": "datum-fin-workspace/libs/shop/data/project.json",
+          "hash": "12045439065568818612"
+        },
+        {
+          "file": "datum-fin-workspace/libs/shop/data/src/index.ts",
+          "hash": "2593148098839560851"
+        },
+        {
+          "file": "datum-fin-workspace/libs/shop/data/src/lib/services/products.service.spec.ts",
+          "hash": "2298568035514722252"
+        },
+        {
+          "file": "datum-fin-workspace/libs/shop/data/src/lib/services/products.service.ts",
+          "hash": "2404642592420185933"
+        },
+        {
+          "file": "datum-fin-workspace/libs/shop/data/src/test-setup.ts",
+          "hash": "13958101226034237113"
+        },
+        {
+          "file": "datum-fin-workspace/libs/shop/data/tsconfig.json",
+          "hash": "13698065948537023682"
+        },
+        {
+          "file": "datum-fin-workspace/libs/shop/data/tsconfig.lib.json",
+          "hash": "4335457317289508738"
+        },
+        {
+          "file": "datum-fin-workspace/libs/shop/data/tsconfig.spec.json",
+          "hash": "10021305143622083869"
+        },
+        {
+          "file": "datum-fin-workspace/libs/shop/data/vite.config.mts",
+          "hash": "3173187512584077028"
+        }
+      ],
+      "products": [
+        {
+          "file": "datum-fin-workspace/libs/api/products/README.md",
+          "hash": "13145352365165039727"
+        },
+        {
+          "file": "datum-fin-workspace/libs/api/products/eslint.config.mjs",
+          "hash": "3347198301331066950"
+        },
+        {
+          "file": "datum-fin-workspace/libs/api/products/package.json",
+          "hash": "3850300412464482679"
+        },
+        {
+          "file": "datum-fin-workspace/libs/api/products/project.json",
+          "hash": "17076685595542921389"
+        },
+        {
+          "file": "datum-fin-workspace/libs/api/products/src/index.ts",
+          "hash": "12737629402607458176"
+        },
+        {
+          "file": "datum-fin-workspace/libs/api/products/src/lib/products.service.spec.ts",
+          "hash": "6249298592916435511"
+        },
+        {
+          "file": "datum-fin-workspace/libs/api/products/src/lib/products.service.ts",
+          "hash": "2469838373769258362"
+        },
+        {
+          "file": "datum-fin-workspace/libs/api/products/tsconfig.json",
+          "hash": "2486577411938537222"
+        },
+        {
+          "file": "datum-fin-workspace/libs/api/products/tsconfig.lib.json",
+          "hash": "11624129529813747059"
+        },
+        {
+          "file": "datum-fin-workspace/libs/api/products/tsconfig.spec.json",
+          "hash": "866090251918963737"
+        },
+        {
+          "file": "datum-fin-workspace/libs/api/products/vite.config.ts",
+          "hash": "9278387184393730950"
+        }
+      ],
+      "datum-fin-host-app": [
+        {
+          "file": "datum-fin-workspace/apps/datum-fin-host-app/eslint.config.mjs",
+          "hash": "16756400681144203361"
+        },
+        {
+          "file": "datum-fin-workspace/apps/datum-fin-host-app/jest.config.cts",
+          "hash": "16961056327562704886"
+        },
+        {
+          "file": "datum-fin-workspace/apps/datum-fin-host-app/module-federation.config.ts",
+          "hash": "12069686219743426419"
+        },
+        {
+          "file": "datum-fin-workspace/apps/datum-fin-host-app/project.json",
+          "hash": "8927342197740825882"
+        },
+        {
+          "file": "datum-fin-workspace/apps/datum-fin-host-app/public/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "datum-fin-workspace/apps/datum-fin-host-app/src/app/app.config.ts",
+          "hash": "4436923392211261843"
+        },
+        {
+          "file": "datum-fin-workspace/apps/datum-fin-host-app/src/app/app.html",
+          "hash": "16438875374344688354"
+        },
+        {
+          "file": "datum-fin-workspace/apps/datum-fin-host-app/src/app/app.routes.ts",
+          "hash": "12189830221502098700"
+        },
+        {
+          "file": "datum-fin-workspace/apps/datum-fin-host-app/src/app/app.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "datum-fin-workspace/apps/datum-fin-host-app/src/app/app.spec.ts",
+          "hash": "14258586205869836337"
+        },
+        {
+          "file": "datum-fin-workspace/apps/datum-fin-host-app/src/app/app.ts",
+          "hash": "17044943752686951284"
+        },
+        {
+          "file": "datum-fin-workspace/apps/datum-fin-host-app/src/app/nx-welcome.ts",
+          "hash": "10795098667334263897"
+        },
+        {
+          "file": "datum-fin-workspace/apps/datum-fin-host-app/src/bootstrap.ts",
+          "hash": "3314327030169821486"
+        },
+        {
+          "file": "datum-fin-workspace/apps/datum-fin-host-app/src/index.html",
+          "hash": "663263351669031116"
+        },
+        {
+          "file": "datum-fin-workspace/apps/datum-fin-host-app/src/main.ts",
+          "hash": "14701344671644104227"
+        },
+        {
+          "file": "datum-fin-workspace/apps/datum-fin-host-app/src/styles.scss",
+          "hash": "5195668842064076916"
+        },
+        {
+          "file": "datum-fin-workspace/apps/datum-fin-host-app/src/test-setup.ts",
+          "hash": "13317557134094625390"
+        },
+        {
+          "file": "datum-fin-workspace/apps/datum-fin-host-app/tsconfig.app.json",
+          "hash": "13139617128955722564"
+        },
+        {
+          "file": "datum-fin-workspace/apps/datum-fin-host-app/tsconfig.json",
+          "hash": "16004134237605501702"
+        },
+        {
+          "file": "datum-fin-workspace/apps/datum-fin-host-app/tsconfig.spec.json",
+          "hash": "5331518322626158299"
+        },
+        {
+          "file": "datum-fin-workspace/apps/datum-fin-host-app/webpack.config.ts",
+          "hash": "383329064200880040"
+        },
+        {
+          "file": "datum-fin-workspace/apps/datum-fin-host-app/webpack.prod.config.ts",
+          "hash": "2861062658584108841"
+        }
+      ],
+      "loginApp-e2e": [
+        {
+          "file": "datum-fin-workspace/apps/loginApp-e2e/eslint.config.mjs",
+          "hash": "1172734138943286526"
+        },
+        {
+          "file": "datum-fin-workspace/apps/loginApp-e2e/playwright.config.ts",
+          "hash": "16693781276334093591"
+        },
+        {
+          "file": "datum-fin-workspace/apps/loginApp-e2e/project.json",
+          "hash": "7967901441327947866"
+        },
+        {
+          "file": "datum-fin-workspace/apps/loginApp-e2e/src/example.spec.ts",
+          "hash": "16019101014373124625"
+        },
+        {
+          "file": "datum-fin-workspace/apps/loginApp-e2e/tsconfig.json",
+          "hash": "15726545290547512047"
+        }
+      ],
+      "datum-fin-host-app-e2e": [
+        {
+          "file": "datum-fin-workspace/apps/datum-fin-host-app-e2e/eslint.config.mjs",
+          "hash": "1172734138943286526"
+        },
+        {
+          "file": "datum-fin-workspace/apps/datum-fin-host-app-e2e/playwright.config.ts",
+          "hash": "528926108569942472"
+        },
+        {
+          "file": "datum-fin-workspace/apps/datum-fin-host-app-e2e/project.json",
+          "hash": "15353730882850874517"
+        },
+        {
+          "file": "datum-fin-workspace/apps/datum-fin-host-app-e2e/src/example.spec.ts",
+          "hash": "16019101014373124625"
+        },
+        {
+          "file": "datum-fin-workspace/apps/datum-fin-host-app-e2e/tsconfig.json",
+          "hash": "15726545290547512047"
+        }
+      ],
+      "feature-products": [
+        {
+          "file": "datum-fin-workspace/libs/shop/feature-products/project.json",
+          "hash": "3556593438467677789"
+        },
+        {
+          "file": "datum-fin-workspace/libs/shop/feature-products/src/index.ts",
+          "hash": "725077902571006232"
+        },
+        {
+          "file": "datum-fin-workspace/libs/shop/feature-products/src/lib/feature-products.routes.ts",
+          "hash": "4026761185711517041"
+        },
+        {
+          "file": "datum-fin-workspace/libs/shop/feature-products/src/lib/product-list/product-list.component.spec.ts",
+          "hash": "7308631422569131433"
+        },
+        {
+          "file": "datum-fin-workspace/libs/shop/feature-products/src/lib/product-list/product-list.component.ts",
+          "hash": "7004584655827555372"
+        },
+        {
+          "file": "datum-fin-workspace/libs/shop/feature-products/src/test-setup.ts",
+          "hash": "13958101226034237113"
+        },
+        {
+          "file": "datum-fin-workspace/libs/shop/feature-products/tsconfig.json",
+          "hash": "5610721802488359353"
+        },
+        {
+          "file": "datum-fin-workspace/libs/shop/feature-products/tsconfig.lib.json",
+          "hash": "4852183382855693775"
+        },
+        {
+          "file": "datum-fin-workspace/libs/shop/feature-products/tsconfig.spec.json",
+          "hash": "10021305143622083869"
+        },
+        {
+          "file": "datum-fin-workspace/libs/shop/feature-products/vite.config.mts",
+          "hash": "1561844329966982783"
+        }
+      ],
+      "loginApp": [
+        {
+          "file": "datum-fin-workspace/apps/loginApp/eslint.config.mjs",
+          "hash": "16756400681144203361"
+        },
+        {
+          "file": "datum-fin-workspace/apps/loginApp/jest.config.cts",
+          "hash": "467784501554416262"
+        },
+        {
+          "file": "datum-fin-workspace/apps/loginApp/module-federation.config.ts",
+          "hash": "5795312503954975259"
+        },
+        {
+          "file": "datum-fin-workspace/apps/loginApp/project.json",
+          "hash": "7105199052586271178"
+        },
+        {
+          "file": "datum-fin-workspace/apps/loginApp/public/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "datum-fin-workspace/apps/loginApp/src/app/app.config.ts",
+          "hash": "4436923392211261843"
+        },
+        {
+          "file": "datum-fin-workspace/apps/loginApp/src/app/app.routes.ts",
+          "hash": "12432514961207439410"
+        },
+        {
+          "file": "datum-fin-workspace/apps/loginApp/src/app/remote-entry/entry.routes.ts",
+          "hash": "3867460417164941437"
+        },
+        {
+          "file": "datum-fin-workspace/apps/loginApp/src/app/remote-entry/entry.ts",
+          "hash": "13419894750414510594"
+        },
+        {
+          "file": "datum-fin-workspace/apps/loginApp/src/app/remote-entry/nx-welcome.ts",
+          "hash": "18348329572274559306"
+        },
+        {
+          "file": "datum-fin-workspace/apps/loginApp/src/bootstrap.ts",
+          "hash": "13646108659156824644"
+        },
+        {
+          "file": "datum-fin-workspace/apps/loginApp/src/index.html",
+          "hash": "5847056748075107055"
+        },
+        {
+          "file": "datum-fin-workspace/apps/loginApp/src/main.ts",
+          "hash": "14701344671644104227"
+        },
+        {
+          "file": "datum-fin-workspace/apps/loginApp/src/styles.scss",
+          "hash": "5195668842064076916"
+        },
+        {
+          "file": "datum-fin-workspace/apps/loginApp/src/test-setup.ts",
+          "hash": "13317557134094625390"
+        },
+        {
+          "file": "datum-fin-workspace/apps/loginApp/tsconfig.app.json",
+          "hash": "4436483208391049944"
+        },
+        {
+          "file": "datum-fin-workspace/apps/loginApp/tsconfig.json",
+          "hash": "16004134237605501702"
+        },
+        {
+          "file": "datum-fin-workspace/apps/loginApp/tsconfig.spec.json",
+          "hash": "5331518322626158299"
+        },
+        {
+          "file": "datum-fin-workspace/apps/loginApp/webpack.config.ts",
+          "hash": "383329064200880040"
+        },
+        {
+          "file": "datum-fin-workspace/apps/loginApp/webpack.prod.config.ts",
+          "hash": "2861062658584108841"
+        }
+      ],
+      "shared-ui": [
+        {
+          "file": "datum-fin-workspace/libs/shop/shared-ui/README.md",
+          "hash": "16598666316718665621"
+        },
+        {
+          "file": "datum-fin-workspace/libs/shop/shared-ui/eslint.config.mjs",
+          "hash": "8456901220050822265"
+        },
+        {
+          "file": "datum-fin-workspace/libs/shop/shared-ui/project.json",
+          "hash": "7659686511493825294"
+        },
+        {
+          "file": "datum-fin-workspace/libs/shop/shared-ui/src/index.ts",
+          "hash": "3746555437415318160"
+        },
+        {
+          "file": "datum-fin-workspace/libs/shop/shared-ui/src/lib/error-message/error-message.component.ts",
+          "hash": "13963549493274735071"
+        },
+        {
+          "file": "datum-fin-workspace/libs/shop/shared-ui/src/lib/loading-spinner/loading-spinner.component.ts",
+          "hash": "16269011747067052828"
+        },
+        {
+          "file": "datum-fin-workspace/libs/shop/shared-ui/src/lib/product-card/product-card.component.spec.ts",
+          "hash": "16597552102761875393"
+        },
+        {
+          "file": "datum-fin-workspace/libs/shop/shared-ui/src/lib/product-card/product-card.component.ts",
+          "hash": "14187993155316760596"
+        },
+        {
+          "file": "datum-fin-workspace/libs/shop/shared-ui/src/lib/product-grid/product-grid.component.ts",
+          "hash": "12906551823607614497"
+        },
+        {
+          "file": "datum-fin-workspace/libs/shop/shared-ui/src/test-setup.ts",
+          "hash": "13958101226034237113"
+        },
+        {
+          "file": "datum-fin-workspace/libs/shop/shared-ui/tsconfig.json",
+          "hash": "13698065948537023682"
+        },
+        {
+          "file": "datum-fin-workspace/libs/shop/shared-ui/tsconfig.lib.json",
+          "hash": "4335457317289508738"
+        },
+        {
+          "file": "datum-fin-workspace/libs/shop/shared-ui/tsconfig.spec.json",
+          "hash": "10021305143622083869"
+        },
+        {
+          "file": "datum-fin-workspace/libs/shop/shared-ui/vite.config.mts",
+          "hash": "13255676815188189793"
+        }
+      ],
+      "models": [
+        {
+          "file": "datum-fin-workspace/libs/shared/models/README.md",
+          "hash": "16853727045832368699"
+        },
+        {
+          "file": "datum-fin-workspace/libs/shared/models/eslint.config.mjs",
+          "hash": "15531309202602760117"
+        },
+        {
+          "file": "datum-fin-workspace/libs/shared/models/project.json",
+          "hash": "8688497269014666198"
+        },
+        {
+          "file": "datum-fin-workspace/libs/shared/models/src/index.ts",
+          "hash": "17902683645970431935"
+        },
+        {
+          "file": "datum-fin-workspace/libs/shared/models/src/lib/product.model.ts",
+          "hash": "15362231404538611152"
+        },
+        {
+          "file": "datum-fin-workspace/libs/shared/models/tsconfig.json",
+          "hash": "8666751250685471268"
+        },
+        {
+          "file": "datum-fin-workspace/libs/shared/models/tsconfig.lib.json",
+          "hash": "2549063896125255353"
+        },
+        {
+          "file": "datum-fin-workspace/libs/shared/models/tsconfig.spec.json",
+          "hash": "866090251918963737"
+        },
+        {
+          "file": "datum-fin-workspace/libs/shared/models/vite.config.ts",
+          "hash": "2716932924354570955"
+        }
+      ]
+    },
+    "nonProjectFiles": [
+      {
+        "file": "README.md",
+        "hash": "11568901869105414448"
+      },
+      {
+        "file": "datum-fin-workspace/.editorconfig",
+        "hash": "11532813898455409296"
+      },
+      {
+        "file": "datum-fin-workspace/.github/workflows/ci.yml",
+        "hash": "12602271644751850563"
+      },
+      {
+        "file": "datum-fin-workspace/.gitignore",
+        "hash": "6789359950525614493"
+      },
+      {
+        "file": "datum-fin-workspace/.prettierignore",
+        "hash": "12269743867629339573"
+      },
+      {
+        "file": "datum-fin-workspace/.prettierrc",
+        "hash": "6820402234827505055"
+      },
+      {
+        "file": "datum-fin-workspace/.vscode/extensions.json",
+        "hash": "11309362834336059819"
+      },
+      {
+        "file": "datum-fin-workspace/.vscode/launch.json",
+        "hash": "11397966353554284715"
+      },
+      {
+        "file": "datum-fin-workspace/README.md",
+        "hash": "11216185634198222713"
+      },
+      {
+        "file": "datum-fin-workspace/error.log",
+        "hash": "10011522935163518115"
+      },
+      {
+        "file": "datum-fin-workspace/eslint.config.mjs",
+        "hash": "1340336128669063875"
+      },
+      {
+        "file": "datum-fin-workspace/jest.config.ts",
+        "hash": "6870352021923392442"
+      },
+      {
+        "file": "datum-fin-workspace/jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": "datum-fin-workspace/nx.json",
+        "hash": "1599113033211086105"
+      },
+      {
+        "file": "datum-fin-workspace/package-lock.json",
+        "hash": "557177039641751586"
+      },
+      {
+        "file": "datum-fin-workspace/package.json",
+        "hash": "1561109573592044359"
+      },
+      {
+        "file": "datum-fin-workspace/tsconfig.base.json",
+        "hash": "10379369022562590951"
+      },
+      {
+        "file": "datum-fin-workspace/vitest.workspace.ts",
+        "hash": "382902831997169314"
+      },
+      {
+        "file": "error.log",
+        "hash": "8099676296837603664"
+      },
+      {
+        "file": "project.md",
+        "hash": "3244421341483603138"
+      }
+    ]
+  },
+  "externalNodesHash": "3244421341483603138"
+}

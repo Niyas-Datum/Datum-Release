@@ -1,0 +1,515 @@
+{
+  "nodes": {
+    "feature-product-detail": {
+      "name": "feature-product-detail",
+      "type": "lib",
+      "data": {
+        "root": "datum-fin-workspace/libs/shop/feature-product-detail",
+        "name": "feature-product-detail",
+        "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+        "projectType": "library",
+        "sourceRoot": "libs/shop/feature-product-detail/src",
+        "prefix": "shop",
+        "tags": [
+          "scope:shop",
+          "type:feature"
+        ],
+        "targets": {
+          "test": {
+            "executor": "@nx/vitest:test",
+            "outputs": [
+              "{options.reportsDirectory}"
+            ],
+            "options": {
+              "reportsDirectory": "../../../coverage/libs/shop/feature-product-detail"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "lint": {
+            "executor": "@nx/eslint:lint",
+            "configurations": {},
+            "options": {},
+            "parallelism": true
+          }
+        },
+        "implicitDependencies": []
+      }
+    },
+    "datum-fin-host-app-e2e": {
+      "name": "datum-fin-host-app-e2e",
+      "type": "e2e",
+      "data": {
+        "root": "datum-fin-workspace/apps/datum-fin-host-app-e2e",
+        "name": "datum-fin-host-app-e2e",
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "projectType": "application",
+        "sourceRoot": "apps/datum-fin-host-app-e2e/src",
+        "implicitDependencies": [
+          "datum-fin-host-app"
+        ],
+        "targets": {},
+        "tags": []
+      }
+    },
+    "feature-products": {
+      "name": "feature-products",
+      "type": "lib",
+      "data": {
+        "root": "datum-fin-workspace/libs/shop/feature-products",
+        "name": "feature-products",
+        "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+        "projectType": "library",
+        "sourceRoot": "libs/shop/feature-products/src",
+        "prefix": "shop",
+        "tags": [
+          "scope:shop",
+          "type:feature"
+        ],
+        "targets": {
+          "test": {
+            "executor": "@nx/vitest:test",
+            "outputs": [
+              "{options.reportsDirectory}"
+            ],
+            "options": {
+              "reportsDirectory": "../../../coverage/libs/shop/feature-products"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "lint": {
+            "executor": "@nx/eslint:lint",
+            "configurations": {},
+            "options": {},
+            "parallelism": true
+          }
+        },
+        "implicitDependencies": []
+      }
+    },
+    "datum-fin-host-app": {
+      "name": "datum-fin-host-app",
+      "type": "app",
+      "data": {
+        "root": "datum-fin-workspace/apps/datum-fin-host-app",
+        "name": "datum-fin-host-app",
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "projectType": "application",
+        "prefix": "app",
+        "sourceRoot": "apps/datum-fin-host-app/src",
+        "tags": [],
+        "targets": {
+          "build": {
+            "executor": "@nx/angular:webpack-browser",
+            "outputs": [
+              "{options.outputPath}"
+            ],
+            "options": {
+              "outputPath": "dist/apps/datum-fin-host-app",
+              "index": "apps/datum-fin-host-app/src/index.html",
+              "main": "apps/datum-fin-host-app/src/main.ts",
+              "tsConfig": "apps/datum-fin-host-app/tsconfig.app.json",
+              "inlineStyleLanguage": "scss",
+              "assets": [
+                {
+                  "glob": "**/*",
+                  "input": "apps/datum-fin-host-app/public"
+                }
+              ],
+              "styles": [
+                "apps/datum-fin-host-app/src/styles.scss"
+              ],
+              "customWebpackConfig": {
+                "path": "apps/datum-fin-host-app/webpack.config.ts"
+              }
+            },
+            "configurations": {
+              "production": {
+                "budgets": [
+                  {
+                    "type": "initial",
+                    "maximumWarning": "500kb",
+                    "maximumError": "1mb"
+                  },
+                  {
+                    "type": "anyComponentStyle",
+                    "maximumWarning": "4kb",
+                    "maximumError": "8kb"
+                  }
+                ],
+                "outputHashing": "all",
+                "customWebpackConfig": {
+                  "path": "apps/datum-fin-host-app/webpack.prod.config.ts"
+                }
+              },
+              "development": {
+                "buildOptimizer": false,
+                "optimization": false,
+                "vendorChunk": true,
+                "extractLicenses": false,
+                "sourceMap": true,
+                "namedChunks": true
+              }
+            },
+            "defaultConfiguration": "production",
+            "parallelism": true
+          },
+          "serve": {
+            "continuous": true,
+            "executor": "@nx/angular:module-federation-dev-server",
+            "options": {
+              "port": 4200,
+              "publicHost": "http://localhost:4200"
+            },
+            "configurations": {
+              "production": {
+                "buildTarget": "datum-fin-host-app:build:production"
+              },
+              "development": {
+                "buildTarget": "datum-fin-host-app:build:development"
+              }
+            },
+            "defaultConfiguration": "development",
+            "parallelism": true
+          },
+          "extract-i18n": {
+            "executor": "@angular-devkit/build-angular:extract-i18n",
+            "options": {
+              "buildTarget": "datum-fin-host-app:build"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "lint": {
+            "executor": "@nx/eslint:lint",
+            "configurations": {},
+            "options": {},
+            "parallelism": true
+          },
+          "test": {
+            "executor": "@nx/jest:jest",
+            "outputs": [
+              "{workspaceRoot}/coverage/{projectRoot}"
+            ],
+            "options": {
+              "jestConfig": "apps/datum-fin-host-app/jest.config.cts",
+              "tsConfig": "apps/datum-fin-host-app/tsconfig.spec.json"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "serve-static": {
+            "continuous": true,
+            "executor": "@nx/web:file-server",
+            "options": {
+              "buildTarget": "datum-fin-host-app:build",
+              "port": 4200,
+              "spa": true
+            },
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "implicitDependencies": []
+      }
+    },
+    "shared-ui": {
+      "name": "shared-ui",
+      "type": "lib",
+      "data": {
+        "root": "datum-fin-workspace/libs/shop/shared-ui",
+        "name": "shared-ui",
+        "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "libs/shop/shared-ui/src",
+        "prefix": "lib",
+        "projectType": "library",
+        "tags": [
+          "scope:shop",
+          "type:ui"
+        ],
+        "targets": {
+          "test": {
+            "executor": "@nx/vitest:test",
+            "outputs": [
+              "{options.reportsDirectory}"
+            ],
+            "options": {
+              "reportsDirectory": "../../../coverage/libs/shop/shared-ui"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "lint": {
+            "executor": "@nx/eslint:lint",
+            "configurations": {},
+            "options": {},
+            "parallelism": true
+          }
+        },
+        "implicitDependencies": []
+      }
+    },
+    "models": {
+      "name": "models",
+      "type": "lib",
+      "data": {
+        "root": "datum-fin-workspace/libs/shared/models",
+        "name": "models",
+        "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "libs/shared/models/src",
+        "projectType": "library",
+        "tags": [
+          "scope:shared",
+          "type:data"
+        ],
+        "targets": {},
+        "implicitDependencies": []
+      }
+    },
+    "loginApp-e2e": {
+      "name": "loginApp-e2e",
+      "type": "e2e",
+      "data": {
+        "root": "datum-fin-workspace/apps/loginApp-e2e",
+        "name": "loginApp-e2e",
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "projectType": "application",
+        "sourceRoot": "apps/loginApp-e2e/src",
+        "implicitDependencies": [
+          "loginApp"
+        ],
+        "targets": {},
+        "tags": []
+      }
+    },
+    "products": {
+      "name": "products",
+      "type": "lib",
+      "data": {
+        "root": "datum-fin-workspace/libs/api/products",
+        "name": "products",
+        "tags": [
+          "npm:private",
+          "scope:api"
+        ],
+        "metadata": {
+          "targetGroups": {},
+          "js": {
+            "packageName": "@org/products",
+            "packageVersion": "0.0.1",
+            "packageMain": "./src/index.js",
+            "isInPackageManagerWorkspaces": false
+          }
+        },
+        "targets": {},
+        "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "libs/api/products/src",
+        "projectType": "library",
+        "implicitDependencies": []
+      }
+    },
+    "data": {
+      "name": "data",
+      "type": "lib",
+      "data": {
+        "root": "datum-fin-workspace/libs/shop/data",
+        "name": "data",
+        "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "libs/shop/data/src",
+        "prefix": "lib",
+        "projectType": "library",
+        "tags": [
+          "scope:shop",
+          "type:data"
+        ],
+        "targets": {
+          "test": {
+            "executor": "@nx/vitest:test",
+            "outputs": [
+              "{options.reportsDirectory}"
+            ],
+            "options": {
+              "reportsDirectory": "../../../coverage/libs/shop/data"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "lint": {
+            "executor": "@nx/eslint:lint",
+            "configurations": {},
+            "options": {},
+            "parallelism": true
+          }
+        },
+        "implicitDependencies": []
+      }
+    },
+    "loginApp": {
+      "name": "loginApp",
+      "type": "app",
+      "data": {
+        "root": "datum-fin-workspace/apps/loginApp",
+        "name": "loginApp",
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "projectType": "application",
+        "prefix": "app",
+        "sourceRoot": "apps/loginApp/src",
+        "tags": [],
+        "targets": {
+          "build": {
+            "executor": "@nx/angular:webpack-browser",
+            "outputs": [
+              "{options.outputPath}"
+            ],
+            "options": {
+              "outputPath": "dist/apps/loginApp",
+              "index": "apps/loginApp/src/index.html",
+              "main": "apps/loginApp/src/main.ts",
+              "tsConfig": "apps/loginApp/tsconfig.app.json",
+              "inlineStyleLanguage": "scss",
+              "assets": [
+                {
+                  "glob": "**/*",
+                  "input": "apps/loginApp/public"
+                }
+              ],
+              "styles": [
+                "apps/loginApp/src/styles.scss"
+              ],
+              "customWebpackConfig": {
+                "path": "apps/loginApp/webpack.config.ts"
+              }
+            },
+            "configurations": {
+              "production": {
+                "budgets": [
+                  {
+                    "type": "initial",
+                    "maximumWarning": "500kb",
+                    "maximumError": "1mb"
+                  },
+                  {
+                    "type": "anyComponentStyle",
+                    "maximumWarning": "4kb",
+                    "maximumError": "8kb"
+                  }
+                ],
+                "outputHashing": "all",
+                "customWebpackConfig": {
+                  "path": "apps/loginApp/webpack.prod.config.ts"
+                }
+              },
+              "development": {
+                "buildOptimizer": false,
+                "optimization": false,
+                "vendorChunk": true,
+                "extractLicenses": false,
+                "sourceMap": true,
+                "namedChunks": true
+              }
+            },
+            "defaultConfiguration": "production",
+            "parallelism": true
+          },
+          "serve": {
+            "continuous": true,
+            "executor": "@nx/angular:dev-server",
+            "options": {
+              "port": 4201,
+              "publicHost": "http://localhost:4201"
+            },
+            "configurations": {
+              "production": {
+                "buildTarget": "loginApp:build:production",
+                "publicHost": "http://localhost:4266"
+              },
+              "development": {
+                "buildTarget": "loginApp:build:development"
+              }
+            },
+            "defaultConfiguration": "development",
+            "dependsOn": [
+              "datum-fin-host-app:serve"
+            ],
+            "parallelism": true
+          },
+          "extract-i18n": {
+            "executor": "@angular-devkit/build-angular:extract-i18n",
+            "options": {
+              "buildTarget": "loginApp:build"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "lint": {
+            "executor": "@nx/eslint:lint",
+            "configurations": {},
+            "options": {},
+            "parallelism": true
+          },
+          "test": {
+            "executor": "@nx/jest:jest",
+            "outputs": [
+              "{workspaceRoot}/coverage/{projectRoot}"
+            ],
+            "options": {
+              "jestConfig": "apps/loginApp/jest.config.cts",
+              "tsConfig": "apps/loginApp/tsconfig.spec.json"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "serve-static": {
+            "continuous": true,
+            "executor": "@nx/web:file-server",
+            "defaultConfiguration": "production",
+            "options": {
+              "buildTarget": "loginApp:build",
+              "port": 4201,
+              "watch": false
+            },
+            "configurations": {
+              "development": {
+                "buildTarget": "loginApp:build:development"
+              },
+              "production": {
+                "buildTarget": "loginApp:build:production"
+              }
+            },
+            "parallelism": true
+          }
+        },
+        "implicitDependencies": []
+      }
+    }
+  },
+  "externalNodes": {},
+  "dependencies": {
+    "feature-product-detail": [],
+    "datum-fin-host-app-e2e": [
+      {
+        "source": "datum-fin-host-app-e2e",
+        "target": "datum-fin-host-app",
+        "type": "implicit"
+      }
+    ],
+    "feature-products": [],
+    "datum-fin-host-app": [],
+    "shared-ui": [],
+    "models": [],
+    "loginApp-e2e": [
+      {
+        "source": "loginApp-e2e",
+        "target": "loginApp",
+        "type": "implicit"
+      }
+    ],
+    "products": [],
+    "data": [],
+    "loginApp": []
+  },
+  "version": "6.0",
+  "errors": [],
+  "computedAt": 1767601673461
+}

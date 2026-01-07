@@ -1,0 +1,1010 @@
+{
+  "datum-fin-workspace/libs/api/products": {
+    "root": [
+      "datum-fin-workspace/libs/api/products/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "datum-fin-workspace/libs/api/products/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "datum-fin-workspace/libs/api/products/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "datum-fin-workspace/libs/api/products/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "datum-fin-workspace/libs/api/products/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "datum-fin-workspace/libs/api/products/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "datum-fin-workspace/libs/api/products/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "datum-fin-workspace/libs/api/products/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "datum-fin-workspace/libs/api/products/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "datum-fin-workspace/libs/api/products/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "datum-fin-workspace/libs/api/products/package.json",
+      "nx/core/package-json"
+    ],
+    "$schema": [
+      "datum-fin-workspace/libs/api/products/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "datum-fin-workspace/libs/api/products/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "datum-fin-workspace/libs/api/products/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.scope:api": [
+      "datum-fin-workspace/libs/api/products/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "datum-fin-workspace/apps/datum-fin-host-app": {
+    "root": [
+      "datum-fin-workspace/apps/datum-fin-host-app/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "datum-fin-workspace/apps/datum-fin-host-app/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "datum-fin-workspace/apps/datum-fin-host-app/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "datum-fin-workspace/apps/datum-fin-host-app/project.json",
+      "nx/core/project-json"
+    ],
+    "prefix": [
+      "datum-fin-workspace/apps/datum-fin-host-app/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "datum-fin-workspace/apps/datum-fin-host-app/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "datum-fin-workspace/apps/datum-fin-host-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "datum-fin-workspace/apps/datum-fin-host-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "datum-fin-workspace/apps/datum-fin-host-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "datum-fin-workspace/apps/datum-fin-host-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "datum-fin-workspace/apps/datum-fin-host-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "datum-fin-workspace/apps/datum-fin-host-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations": [
+      "datum-fin-workspace/apps/datum-fin-host-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.defaultConfiguration": [
+      "datum-fin-workspace/apps/datum-fin-host-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.outputPath": [
+      "datum-fin-workspace/apps/datum-fin-host-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.index": [
+      "datum-fin-workspace/apps/datum-fin-host-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.main": [
+      "datum-fin-workspace/apps/datum-fin-host-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.tsConfig": [
+      "datum-fin-workspace/apps/datum-fin-host-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.inlineStyleLanguage": [
+      "datum-fin-workspace/apps/datum-fin-host-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.assets": [
+      "datum-fin-workspace/apps/datum-fin-host-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.styles": [
+      "datum-fin-workspace/apps/datum-fin-host-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.customWebpackConfig": [
+      "datum-fin-workspace/apps/datum-fin-host-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production": [
+      "datum-fin-workspace/apps/datum-fin-host-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.budgets": [
+      "datum-fin-workspace/apps/datum-fin-host-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.outputHashing": [
+      "datum-fin-workspace/apps/datum-fin-host-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.customWebpackConfig": [
+      "datum-fin-workspace/apps/datum-fin-host-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development": [
+      "datum-fin-workspace/apps/datum-fin-host-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.buildOptimizer": [
+      "datum-fin-workspace/apps/datum-fin-host-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.optimization": [
+      "datum-fin-workspace/apps/datum-fin-host-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.vendorChunk": [
+      "datum-fin-workspace/apps/datum-fin-host-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.extractLicenses": [
+      "datum-fin-workspace/apps/datum-fin-host-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.sourceMap": [
+      "datum-fin-workspace/apps/datum-fin-host-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.namedChunks": [
+      "datum-fin-workspace/apps/datum-fin-host-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve": [
+      "datum-fin-workspace/apps/datum-fin-host-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.continuous": [
+      "datum-fin-workspace/apps/datum-fin-host-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.executor": [
+      "datum-fin-workspace/apps/datum-fin-host-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options": [
+      "datum-fin-workspace/apps/datum-fin-host-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations": [
+      "datum-fin-workspace/apps/datum-fin-host-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.defaultConfiguration": [
+      "datum-fin-workspace/apps/datum-fin-host-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.port": [
+      "datum-fin-workspace/apps/datum-fin-host-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.publicHost": [
+      "datum-fin-workspace/apps/datum-fin-host-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production": [
+      "datum-fin-workspace/apps/datum-fin-host-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production.buildTarget": [
+      "datum-fin-workspace/apps/datum-fin-host-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.development": [
+      "datum-fin-workspace/apps/datum-fin-host-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.development.buildTarget": [
+      "datum-fin-workspace/apps/datum-fin-host-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.extract-i18n": [
+      "datum-fin-workspace/apps/datum-fin-host-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.extract-i18n.executor": [
+      "datum-fin-workspace/apps/datum-fin-host-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.extract-i18n.options": [
+      "datum-fin-workspace/apps/datum-fin-host-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.extract-i18n.options.buildTarget": [
+      "datum-fin-workspace/apps/datum-fin-host-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "datum-fin-workspace/apps/datum-fin-host-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.executor": [
+      "datum-fin-workspace/apps/datum-fin-host-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "datum-fin-workspace/apps/datum-fin-host-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "datum-fin-workspace/apps/datum-fin-host-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.outputs": [
+      "datum-fin-workspace/apps/datum-fin-host-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "datum-fin-workspace/apps/datum-fin-host-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.jestConfig": [
+      "datum-fin-workspace/apps/datum-fin-host-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.tsConfig": [
+      "datum-fin-workspace/apps/datum-fin-host-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static": [
+      "datum-fin-workspace/apps/datum-fin-host-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.continuous": [
+      "datum-fin-workspace/apps/datum-fin-host-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.executor": [
+      "datum-fin-workspace/apps/datum-fin-host-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.options": [
+      "datum-fin-workspace/apps/datum-fin-host-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.options.buildTarget": [
+      "datum-fin-workspace/apps/datum-fin-host-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.options.port": [
+      "datum-fin-workspace/apps/datum-fin-host-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.options.spa": [
+      "datum-fin-workspace/apps/datum-fin-host-app/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "datum-fin-workspace/apps/datum-fin-host-app-e2e": {
+    "root": [
+      "datum-fin-workspace/apps/datum-fin-host-app-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "datum-fin-workspace/apps/datum-fin-host-app-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "datum-fin-workspace/apps/datum-fin-host-app-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "datum-fin-workspace/apps/datum-fin-host-app-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "datum-fin-workspace/apps/datum-fin-host-app-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "// targets": [
+      "datum-fin-workspace/apps/datum-fin-host-app-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies": [
+      "datum-fin-workspace/apps/datum-fin-host-app-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies.datum-fin-host-app": [
+      "datum-fin-workspace/apps/datum-fin-host-app-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "datum-fin-workspace/apps/datum-fin-host-app-e2e/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "datum-fin-workspace/apps/loginApp": {
+    "root": [
+      "datum-fin-workspace/apps/loginApp/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "datum-fin-workspace/apps/loginApp/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "datum-fin-workspace/apps/loginApp/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "datum-fin-workspace/apps/loginApp/project.json",
+      "nx/core/project-json"
+    ],
+    "prefix": [
+      "datum-fin-workspace/apps/loginApp/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "datum-fin-workspace/apps/loginApp/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "datum-fin-workspace/apps/loginApp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "datum-fin-workspace/apps/loginApp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "datum-fin-workspace/apps/loginApp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "datum-fin-workspace/apps/loginApp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "datum-fin-workspace/apps/loginApp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "datum-fin-workspace/apps/loginApp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations": [
+      "datum-fin-workspace/apps/loginApp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.defaultConfiguration": [
+      "datum-fin-workspace/apps/loginApp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.outputPath": [
+      "datum-fin-workspace/apps/loginApp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.index": [
+      "datum-fin-workspace/apps/loginApp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.main": [
+      "datum-fin-workspace/apps/loginApp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.tsConfig": [
+      "datum-fin-workspace/apps/loginApp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.inlineStyleLanguage": [
+      "datum-fin-workspace/apps/loginApp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.assets": [
+      "datum-fin-workspace/apps/loginApp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.styles": [
+      "datum-fin-workspace/apps/loginApp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.customWebpackConfig": [
+      "datum-fin-workspace/apps/loginApp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production": [
+      "datum-fin-workspace/apps/loginApp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.budgets": [
+      "datum-fin-workspace/apps/loginApp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.outputHashing": [
+      "datum-fin-workspace/apps/loginApp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.customWebpackConfig": [
+      "datum-fin-workspace/apps/loginApp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development": [
+      "datum-fin-workspace/apps/loginApp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.buildOptimizer": [
+      "datum-fin-workspace/apps/loginApp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.optimization": [
+      "datum-fin-workspace/apps/loginApp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.vendorChunk": [
+      "datum-fin-workspace/apps/loginApp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.extractLicenses": [
+      "datum-fin-workspace/apps/loginApp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.sourceMap": [
+      "datum-fin-workspace/apps/loginApp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.namedChunks": [
+      "datum-fin-workspace/apps/loginApp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve": [
+      "datum-fin-workspace/apps/loginApp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.continuous": [
+      "datum-fin-workspace/apps/loginApp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.executor": [
+      "datum-fin-workspace/apps/loginApp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options": [
+      "datum-fin-workspace/apps/loginApp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations": [
+      "datum-fin-workspace/apps/loginApp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.defaultConfiguration": [
+      "datum-fin-workspace/apps/loginApp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.dependsOn": [
+      "datum-fin-workspace/apps/loginApp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.port": [
+      "datum-fin-workspace/apps/loginApp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.publicHost": [
+      "datum-fin-workspace/apps/loginApp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production": [
+      "datum-fin-workspace/apps/loginApp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production.buildTarget": [
+      "datum-fin-workspace/apps/loginApp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production.publicHost": [
+      "datum-fin-workspace/apps/loginApp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.development": [
+      "datum-fin-workspace/apps/loginApp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.development.buildTarget": [
+      "datum-fin-workspace/apps/loginApp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.extract-i18n": [
+      "datum-fin-workspace/apps/loginApp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.extract-i18n.executor": [
+      "datum-fin-workspace/apps/loginApp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.extract-i18n.options": [
+      "datum-fin-workspace/apps/loginApp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.extract-i18n.options.buildTarget": [
+      "datum-fin-workspace/apps/loginApp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "datum-fin-workspace/apps/loginApp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.executor": [
+      "datum-fin-workspace/apps/loginApp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "datum-fin-workspace/apps/loginApp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "datum-fin-workspace/apps/loginApp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.outputs": [
+      "datum-fin-workspace/apps/loginApp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "datum-fin-workspace/apps/loginApp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.jestConfig": [
+      "datum-fin-workspace/apps/loginApp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.tsConfig": [
+      "datum-fin-workspace/apps/loginApp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static": [
+      "datum-fin-workspace/apps/loginApp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.continuous": [
+      "datum-fin-workspace/apps/loginApp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.executor": [
+      "datum-fin-workspace/apps/loginApp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.defaultConfiguration": [
+      "datum-fin-workspace/apps/loginApp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.options": [
+      "datum-fin-workspace/apps/loginApp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.configurations": [
+      "datum-fin-workspace/apps/loginApp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.options.buildTarget": [
+      "datum-fin-workspace/apps/loginApp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.options.port": [
+      "datum-fin-workspace/apps/loginApp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.options.watch": [
+      "datum-fin-workspace/apps/loginApp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.configurations.development": [
+      "datum-fin-workspace/apps/loginApp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.configurations.development.buildTarget": [
+      "datum-fin-workspace/apps/loginApp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.configurations.production": [
+      "datum-fin-workspace/apps/loginApp/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.configurations.production.buildTarget": [
+      "datum-fin-workspace/apps/loginApp/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "datum-fin-workspace/apps/loginApp-e2e": {
+    "root": [
+      "datum-fin-workspace/apps/loginApp-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "datum-fin-workspace/apps/loginApp-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "datum-fin-workspace/apps/loginApp-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "datum-fin-workspace/apps/loginApp-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "datum-fin-workspace/apps/loginApp-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "// targets": [
+      "datum-fin-workspace/apps/loginApp-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies": [
+      "datum-fin-workspace/apps/loginApp-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies.loginApp": [
+      "datum-fin-workspace/apps/loginApp-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "datum-fin-workspace/apps/loginApp-e2e/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "datum-fin-workspace/libs/shared/models": {
+    "root": [
+      "datum-fin-workspace/libs/shared/models/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "datum-fin-workspace/libs/shared/models/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "datum-fin-workspace/libs/shared/models/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "datum-fin-workspace/libs/shared/models/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "datum-fin-workspace/libs/shared/models/project.json",
+      "nx/core/project-json"
+    ],
+    "// targets": [
+      "datum-fin-workspace/libs/shared/models/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "datum-fin-workspace/libs/shared/models/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.scope:shared": [
+      "datum-fin-workspace/libs/shared/models/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.type:data": [
+      "datum-fin-workspace/libs/shared/models/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "datum-fin-workspace/libs/shared/models/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "datum-fin-workspace/libs/shop/data": {
+    "root": [
+      "datum-fin-workspace/libs/shop/data/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "datum-fin-workspace/libs/shop/data/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "datum-fin-workspace/libs/shop/data/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "datum-fin-workspace/libs/shop/data/project.json",
+      "nx/core/project-json"
+    ],
+    "prefix": [
+      "datum-fin-workspace/libs/shop/data/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "datum-fin-workspace/libs/shop/data/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "datum-fin-workspace/libs/shop/data/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.scope:shop": [
+      "datum-fin-workspace/libs/shop/data/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.type:data": [
+      "datum-fin-workspace/libs/shop/data/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "datum-fin-workspace/libs/shop/data/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "datum-fin-workspace/libs/shop/data/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "datum-fin-workspace/libs/shop/data/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.outputs": [
+      "datum-fin-workspace/libs/shop/data/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "datum-fin-workspace/libs/shop/data/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.reportsDirectory": [
+      "datum-fin-workspace/libs/shop/data/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "datum-fin-workspace/libs/shop/data/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.executor": [
+      "datum-fin-workspace/libs/shop/data/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "datum-fin-workspace/libs/shop/feature-product-detail": {
+    "root": [
+      "datum-fin-workspace/libs/shop/feature-product-detail/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "datum-fin-workspace/libs/shop/feature-product-detail/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "datum-fin-workspace/libs/shop/feature-product-detail/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "datum-fin-workspace/libs/shop/feature-product-detail/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "datum-fin-workspace/libs/shop/feature-product-detail/project.json",
+      "nx/core/project-json"
+    ],
+    "prefix": [
+      "datum-fin-workspace/libs/shop/feature-product-detail/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "datum-fin-workspace/libs/shop/feature-product-detail/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.scope:shop": [
+      "datum-fin-workspace/libs/shop/feature-product-detail/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.type:feature": [
+      "datum-fin-workspace/libs/shop/feature-product-detail/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "datum-fin-workspace/libs/shop/feature-product-detail/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "datum-fin-workspace/libs/shop/feature-product-detail/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "datum-fin-workspace/libs/shop/feature-product-detail/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.outputs": [
+      "datum-fin-workspace/libs/shop/feature-product-detail/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "datum-fin-workspace/libs/shop/feature-product-detail/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.reportsDirectory": [
+      "datum-fin-workspace/libs/shop/feature-product-detail/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "datum-fin-workspace/libs/shop/feature-product-detail/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.executor": [
+      "datum-fin-workspace/libs/shop/feature-product-detail/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "datum-fin-workspace/libs/shop/feature-products": {
+    "root": [
+      "datum-fin-workspace/libs/shop/feature-products/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "datum-fin-workspace/libs/shop/feature-products/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "datum-fin-workspace/libs/shop/feature-products/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "datum-fin-workspace/libs/shop/feature-products/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "datum-fin-workspace/libs/shop/feature-products/project.json",
+      "nx/core/project-json"
+    ],
+    "prefix": [
+      "datum-fin-workspace/libs/shop/feature-products/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "datum-fin-workspace/libs/shop/feature-products/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.scope:shop": [
+      "datum-fin-workspace/libs/shop/feature-products/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.type:feature": [
+      "datum-fin-workspace/libs/shop/feature-products/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "datum-fin-workspace/libs/shop/feature-products/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "datum-fin-workspace/libs/shop/feature-products/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "datum-fin-workspace/libs/shop/feature-products/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.outputs": [
+      "datum-fin-workspace/libs/shop/feature-products/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "datum-fin-workspace/libs/shop/feature-products/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.reportsDirectory": [
+      "datum-fin-workspace/libs/shop/feature-products/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "datum-fin-workspace/libs/shop/feature-products/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.executor": [
+      "datum-fin-workspace/libs/shop/feature-products/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "datum-fin-workspace/libs/shop/shared-ui": {
+    "root": [
+      "datum-fin-workspace/libs/shop/shared-ui/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "datum-fin-workspace/libs/shop/shared-ui/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "datum-fin-workspace/libs/shop/shared-ui/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "datum-fin-workspace/libs/shop/shared-ui/project.json",
+      "nx/core/project-json"
+    ],
+    "prefix": [
+      "datum-fin-workspace/libs/shop/shared-ui/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "datum-fin-workspace/libs/shop/shared-ui/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "datum-fin-workspace/libs/shop/shared-ui/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.scope:shop": [
+      "datum-fin-workspace/libs/shop/shared-ui/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.type:ui": [
+      "datum-fin-workspace/libs/shop/shared-ui/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "datum-fin-workspace/libs/shop/shared-ui/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "datum-fin-workspace/libs/shop/shared-ui/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "datum-fin-workspace/libs/shop/shared-ui/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.outputs": [
+      "datum-fin-workspace/libs/shop/shared-ui/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "datum-fin-workspace/libs/shop/shared-ui/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.reportsDirectory": [
+      "datum-fin-workspace/libs/shop/shared-ui/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "datum-fin-workspace/libs/shop/shared-ui/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.executor": [
+      "datum-fin-workspace/libs/shop/shared-ui/project.json",
+      "nx/core/project-json"
+    ]
+  }
+}
